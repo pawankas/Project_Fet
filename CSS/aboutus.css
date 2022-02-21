@@ -1,0 +1,40 @@
+
+  
+  .card{
+    padding: 20px;
+    margin: 20px;
+   
+  }
+  
+  .card:hover{
+    transform: scale(1.1);
+    border-radius: 25px;
+    border-style: solid;
+    border-color: rgb(194, 85, 13);
+    
+  }
+  
+  .card-text{
+    color: rgb(58, 23, 23);
+    text-align: center;
+  }
+  
+  .card-title{
+    color: rgb(112, 6, 6);
+  }
+  
+  .card-footer {
+    text-align: center;
+    color: rgb(68, 48, 4);
+    
+  }
+  
+  .container2{
+    text-align: center;
+  }
+
+  .card1{
+    padding: 20px;
+    margin: 20px;
+   
+  }

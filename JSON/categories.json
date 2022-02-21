@@ -1,0 +1,28 @@
+{
+  "Categories": [
+    {
+      "id": 1,
+      "categoryName": "Java"
+    },
+    {
+      "id": 2,
+      "categoryName": "JavaScript"
+    },
+    {
+      "id": 3,
+      "categoryName": "Angular"
+    },
+    {
+      "id": 4,
+      "categoryName": "React Js"
+    },
+    {
+      "categoryName": "Test",
+      "id": 5
+    },
+    {
+      "categoryName": "Abhijith",
+      "id": 6
+    }
+  ]
+}

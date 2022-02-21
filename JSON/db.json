@@ -1,0 +1,46 @@
+{
+  "login": [
+    {
+      "id": 1,
+      "username": "user",
+      "password": "password",
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "username": "admin",
+      "password": "password",
+      "role": "admin"
+    },
+    {
+      "username": "abijith",
+      "password": "123456",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "username": "venkat",
+      "password": "123456",
+      "role": "user",
+      "id": 4
+    },
+    {
+      "username": "venkat123",
+      "password": "12345667890",
+      "role": "admin",
+      "id": 5
+    },
+    {
+      "username": "poor",
+      "password": "poor123",
+      "role": "user",
+      "id": 6
+    },
+    {
+      "username": "admin1",
+      "password": "1234",
+      "role": "admin",
+      "id": 7
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "Qusetions": [
+    {
+      "categoryName": "Java",
+      "qusetionName": "What is Java?",
+      "categoryId": 1,
+      "approved": "Approved by Admin",
+      "createdDate": "2022-02-20T14:51:38.128Z",
+      "Comment": [],
+      "Like": [],
+      "Answer": [],
+      "id": 1
+    },
+    {
+      "categoryName": "JavaScript",
+      "qusetionName": "What is JavaScript?\n",
+      "categoryId": 2,
+      "approved": "Approved by Admin",
+      "createdDate": "2022-02-20T14:52:01.086Z",
+      "Comment": [],
+      "Like": [],
+      "Answer": [],
+      "id": 2
+    },
+    {
+      "categoryName": "Angular",
+      "qusetionName": "What is Angular?",
+      "categoryId": 3,
+      "approved": "Approved by Admin",
+      "createdDate": "2022-02-20T14:52:21.636Z",
+      "Comment": [],
+      "Like": [],
+      "Answer": [],
+      "id": 3
+    },
+    {
+      "categoryName": "React Js",
+      "qusetionName": "what is React Js?\n",
+      "categoryId": 4,
+      "approved": "Approved by Admin",
+      "createdDate": "2022-02-20T14:52:39.999Z",
+      "Comment": [],
+      "Like": [],
+      "Answer": [],
+      "id": 4
+    },
+    {
+      "categoryName": "Test",
+      "qusetionName": "What is Python?\n",
+      "categoryId": 5,
+      "approved": "Approved by Admin",
+      "createdDate": "2022-02-20T14:52:56.354Z",
+      "Comment": [],
+      "Like": [],
+      "Answer": [],
+      "id": 5
+    },
+    {
+      "categoryName": "Java",
+      "qusetionName": "What is Python?",
+      "categoryId": 1,
+      "approved": "Approved by Admin",
+      "createdDate": "2022-02-20T15:08:00.312Z",
+      "Comment": [],
+      "Like": [],
+      "Answer": [],
+      "id": 6
+    },
+    {
+      "categoryName": "Test",
+      "qusetionName": "What is Python?",
+      "categoryId": 5,
+      "approved": "Approved by Admin",
+      "createdDate": "2022-02-20T15:09:44.529Z",
+      "Comment": [],
+      "Like": [],
+      "Answer": [],
+      "id": 7
+    }
+  ]
+}

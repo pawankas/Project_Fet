@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Forum</title>
+    <script
+      src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js"
+      referrerpolicy="origin"
+    ></script>
+
+    <script>
+      tinymce.init({
+        selector: "textarea#editor",
+        menubar: false,
+      });
+    </script>
+  </head>
+  <body>
+    <div class="container" style="display: flex; margin: 0; padding: 0">
+      <a href="user.html"
+        ><button type="button" class="btn btn-success">
+          User Questions
+        </button></a
+      >
+    </div>
+    <div id="currentUser" class="p-2"></div>
+    <div class="container mt-4 mb-4">
+      <div class="mb-3">
+        Categories:
+        <select id="framework">
+          <option value="Java">Java</option>
+          <option value="JavaScript">JavaScript</option>
+          <option value="Angular">Angular</option>
+          <option value="React Js">React Js</option>
+          <option value="Test">Python</option>
+        </select>
+        <!-- <label for="exampleFormControlInput1" class="form-label">Title</label><br>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Category of question eg java, php,python,etc."> -->
+      </div>
+      <div class="row justify-content-md">
+        <div class="col-md-12 col-lg-8">
+          <label>Describe the question in detail</label><br />
+          <textarea id="question" style="height: 500px; width: 100%"></textarea
+          ><br />
+          <!-- <div class="form-group">
+               <textarea id="editor"></textarea>
+            </div> -->
+          <button
+            type="submit"
+            class="btn btn-primary"
+            style="margin: 10px"
+            onclick="createQusetion()"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+
+      <div id="categories"></div>
+    </div>
+    <script src="../js/main.js"></script>
+    <script src="../js/forum.js"></script>
+  </body>
+</html>
